@@ -1,19 +1,13 @@
-const deployKLAY = require("../deployKLAY.js");
-const deployLINK = require("../deployLINK.js");
-const deployTRX = require("../deployTRX.js");
-const deployWBNB = require("../deployWBNB.js");
-const deployWETH = require("../deployWETH.js");
-const deployWMATIC = require("../deployWMATIC.js");
-const deployUSDT = require("../deployUSDT.js");
+const deployKlayPriceFeed = require("../deployKlayPriceFeed.js");
+const deployTrxPriceFeed = require("../deployTrxPriceFeed.js");
+const deployWbnbPriceFeed = require("../deployWbnbPriceFeed.js");
+const deployWmaticPriceFeed = require("../deployWmaticPriceFeed.js");
 
 const deploy_core = async () => {
-    await deployKLAY();
-    await deployLINK();
-    await deployTRX();
-    await deployWBNB();
-    await deployWETH();
-    await deployWMATIC();
-    await deployUSDT();
+    await deployKlayPriceFeed();
+    await deployTrxPriceFeed();
+    await deployWbnbPriceFeed();
+    await deployWmaticPriceFeed();
 }
 
 module.exports = { deploy_core };
