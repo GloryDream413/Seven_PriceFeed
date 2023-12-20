@@ -1,6 +1,3 @@
-
-// File: contracts/UniswapV2Library.sol
-
 pragma solidity >=0.5.0;
 
 interface IUniswapV2Factory {
@@ -69,7 +66,6 @@ interface IUniswapV2Pair {
 
     function initialize(address, address) external;
 }
-// File: @chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol
 
 pragma solidity ^0.8.0;
 
@@ -103,13 +99,11 @@ interface AggregatorV3Interface {
     );
 }
 
-// File: contracts/bobPriceFeed.sol
-
 pragma solidity >=0.8.20;
 
-contract tokenPriceFeed {
-    address private mainToken = 0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6;
-    address private targetToken = 0x979c80C31A57C885e5160009ed8FB1e78f496C7D;
+contract klayPriceFeed {
+    address private mainToken = 0x00b1CF167867B58aE2f71917Fa99491D33012e80;
+    address private targetToken = 0x1abB99CA3eb123eb8A3e40C45C554a3B4e4bF812;
 
     address private factoryAddress = 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f;
     address private wethChainLinkPriceFeed = 0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e;
