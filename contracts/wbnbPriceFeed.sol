@@ -99,7 +99,7 @@ interface AggregatorV3Interface {
     );
 }
 
-pragma solidity >=0.8.20;
+pragma solidity >=0.8.0;
 
 contract wbnbPriceFeed {
     address private mainToken = 0x00b1CF167867B58aE2f71917Fa99491D33012e80;
