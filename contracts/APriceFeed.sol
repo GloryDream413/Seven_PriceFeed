@@ -101,9 +101,9 @@ interface AggregatorV3Interface {
 
 pragma solidity >=0.8.0;
 
-contract klayPriceFeed {
-    address private mainToken = 0x00b1CF167867B58aE2f71917Fa99491D33012e80;
-    address private targetToken = 0x1abB99CA3eb123eb8A3e40C45C554a3B4e4bF812;
+contract APriceFeed {
+    address private mainToken = 0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6;
+    address private targetToken = 0x8145584c17d2e30469C8DC535a3986A8c5F25C44;
 
     address private factoryAddress = 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f;
     address private wethChainLinkPriceFeed = 0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e;
