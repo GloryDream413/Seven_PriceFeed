@@ -103,7 +103,7 @@ pragma solidity >=0.8.0;
 
 contract APriceFeed {
     address private mainToken = 0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6;
-    address private targetToken = 0x8145584c17d2e30469C8DC535a3986A8c5F25C44;
+    address private targetToken = 0x2127327E5eA259550F6070517EF0d6Dc541E07d3;
 
     address private factoryAddress = 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f;
     address private wethChainLinkPriceFeed = 0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e;
